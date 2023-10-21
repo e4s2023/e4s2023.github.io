@@ -346,16 +346,16 @@
         <center><font size="+2">Proposed E4S framework</font></center>
         <br clear="all">
         <img class='teaser-img' src="img/fig_method.png"></img>
-        <p>
-            Overview of our proposed E4S framework. (a) For the source image \(I_s\) and the target \(I_t\), 
-            a reenactment network \(G_r\) is used to drive \(I_s\) to show similar pose and expression 
-            towards \(I_t\), obtaining \(I_d\). The segmentation masks of \(I_t\) and \(I_d\) are also estimated. 
-            (b) The driven and target pairs \((I_d, M_d)\) and \((I_t, M_t)\) are fed into the 
-            mask-guided encoder \(F_{\phi}\) to extract the per-region style codes to depict the texture respectively, 
-            producing texture codes \(S_d\) and \(S_t\). We then swap the masks and the corresponding texture codes, 
-            and send them to the pre-trained StyleGAN generator \(G_{\theta}\) with a mask-guided injection module 
-            to synthesize the swapped face \(\tilde{I}\). 
-        </p>
+        <!-- <p>
+            Overview of our proposed E4S framework. (a) For the source image \(I_s\) and the target \(I_t\),
+            a reenactment network \(G_r\) is used to drive \(I_s\) to show similar pose and expression
+            towards \(I_t\), obtaining \(I_d\). The segmentation masks of \(I_t\) and \(I_d\) are also estimated.
+            (b) The driven and target pairs \((I_d, M_d)\) and \((I_t, M_t)\) are fed into the
+            mask-guided encoder \(F_{\phi}\) to extract the per-region style codes to depict the texture respectively,
+            producing texture codes \(S_d\) and \(S_t\). We then swap the masks and the corresponding texture codes,
+            and send them to the pre-trained StyleGAN generator \(G_{\theta}\) with a mask-guided injection module
+            to synthesize the swapped face \(\tilde{I}\).
+        </p> -->
     </div>
 
     <!-- <div class="content" id="rgi_pipeline">
@@ -459,7 +459,7 @@
 
         <h2>Reference</h2>
         <code>
-            @misc{liuE4S,<br>
+            @misc{liE4S,<br>
                 &nbsp;&nbsp;Author = {Maomao Li and Ge Yuan and Cairong Wang and Zhian Liu and Yong Zhang and Yongwei Nie and Jue Wang and Dong Xu},<br>
                 &nbsp;&nbsp;Title = {E4S: Fine-Grained Face Swapping via Regional GAN Inversion},<br>
                 &nbsp;&nbsp;Year = {2023},<br>
